@@ -1,0 +1,227 @@
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (min-width : 0px) and (max-width : 576px) {
+    .sentence {
+        width: 100%;
+    }
+    .pSentence {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* Start Header */
+    .header {
+        display: flex;
+    }
+    .logo {
+        width: 74px;
+        position: relative;
+        left: -19px;
+    }
+    .tabs , .nameLogo {
+        border: none;
+    }
+    .Trendify {
+        position: relative;
+        left: -30px;
+    }
+    .header .tabs .icons {
+        display: block;
+        position: relative;
+        top: 30px;
+        right: 18px;
+    }
+    .tabsLinks {
+        display: none;
+    }
+    .header .tabs .icons span {
+        display: block;
+    }
+
+.icons:hover + .tabsLinks,
+.tabsLinks:hover {
+    display: block;
+    width: 300px;
+    height: 171px;
+    background-color: #c0eeff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 19px;
+}
+.tabsLinks li {
+    position: relative;
+    top: 31px;
+    left: -15px;
+}
+    /* End Header */
+    /* Start Conatct Us */
+.container{
+    flex-direction: column;
+    height: 1197px;
+}
+.ConactLeft{
+    top: 36px;
+}
+.contact {
+    position: absolute;
+    left: 79px;
+    top: -49px;
+}
+.map{
+    width: 374px;
+    height: 442px;
+    position: relative;
+    left: 78px;
+}
+.ConactRight{
+    top: 5px;
+}
+.txt_email , .send , .subject , .Message {   
+    position: relative;
+    left: 39px;
+}
+.txt_email , .send{
+    width: 231px;
+
+}
+.subject , .Message {
+    width: 466px;
+}
+/* End Conatct Us */
+ /* Start Subscribe on Triendy now! */
+ .divSubsribe{
+    top: 61px;
+}
+.Psubscribe{
+    font-size: 15px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.emailSub {
+    width: 300px;
+    margin-bottom: 20px;
+}
+/* End Subscribe on Triendy now! */
+}
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width : 767px) {
+    /* Start Header */
+    .header {
+       display: flex;
+   }
+   .tabs , .nameLogo {
+       border: none;
+   }
+   .logo {
+       width: 86px;
+       position: relative;
+       left: -8px;
+   }
+   .Trendify {
+       position: relative;
+       left:-17px;
+   }
+   .header .tabs .icons {
+       display: block;
+       position: relative;
+       top: 30px;
+       right: 24px;
+   }
+   .header .tabs .icons span {
+       display: block;
+   }
+   .tabsLinks {
+       display: none;
+   }
+   
+   .icons:hover + .tabsLinks,
+   .tabsLinks:hover {
+       display: block;
+       width: 300px;
+       height: 171px;
+       background-color: #c0eeff;
+       text-align: center;
+       line-height: 30px;
+       margin-top: 19px;
+   }
+   .tabsLinks li {
+       position: relative;
+       top: 31px;
+       left: -15px;
+   }
+   /* End Header */
+    /* Start Conatct Us */
+.container{
+    flex-direction: column;
+    height: 1197px;
+}
+.ConactLeft{
+    top: 36px;
+}
+.contact {
+    position: absolute;
+    left: 136px;
+    top: -49px;
+}
+.map{
+    width: 503px;
+    height: 442px;
+    position: relative;
+    left: 136px;
+}
+.ConactRight{
+    top: 5px;
+}
+.txt_email , .send , .subject , .Message {   
+    position: relative;
+    left: 82px;
+}
+.txt_email , .send{
+    width: 293px;
+
+}
+.subject , .Message {
+    width: 590px;
+}
+/* End Conatct Us */
+/* Start Subscribe on Triendy now! */
+.divSubsribe{
+    top: 61px;
+}
+.Psubscribe{
+    font-size: 15px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.emailSub {
+    width: 300px;
+    margin-bottom: 20px;
+}
+/* End Subscribe on Triendy now! */
+}
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width : 767px) and (max-width: 992px) {
+    .map {
+        width: 440px;
+        height: 478px;
+        border-radius: 5px;
+    }
+    .txt_email , .send{
+        width: 200px;
+    }
+    .subject , .Message {
+        width: 405px;
+    }
+}
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width : 992px) and (max-width: 1200px) {
+    /* Start Subscribe on Triendy now! */
+    .emailSub {
+        width: 300px;
+    }
+    /* End Subscribe on Triendy now! */
+}
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
